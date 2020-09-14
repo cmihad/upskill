@@ -1,0 +1,48 @@
+.upcoming-grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+
+
+  padding:  50px ;
+  background: #F8F8F9;
+}
+.backgrond{
+  background:#F8F8F9 ;
+}
+.flex-up{
+  display: flex;
+  justify-content: center;
+
+
+  margin-top: 75px;
+}
+.flex-up h1{
+  padding: 75px 0px;
+  text-align: center;
+  font: bold 32px Montserrat;
+  letter-spacing: -0.8px;
+  color: #000000;
+  opacity: 1;
+ 
+}
+img{
+  display: block;
+  width: 100%;
+}
+.upcoming-grid p{
+  text-align: left;
+  font: normal normal bold 14px/29px Montserrat;
+  letter-spacing: -0.35px;
+  color: #000000;
+  margin-left: 15px;
+}
+.btn-up{
+  margin-left: 15px;
+  font: normal normal bold 14px/29px Montserrat;
+letter-spacing: 0px;
+color: #0062FF;
+text-transform: uppercase;
+opacity: 1;
+
+}
+

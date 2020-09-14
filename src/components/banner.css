@@ -1,0 +1,59 @@
+.banner-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.banner-img{
+  max-width: 100%;
+}
+.banner-grid>:last-child{
+  padding-left: 50px;
+  
+}
+.banner-disc h1{
+  text-align: left;
+ font-weight: 500;
+ padding-bottom: 25px;
+font-size:48px;
+letter-spacing: -1.2px;
+
+color: #000000;
+opacity: 1;
+}
+.banner-disc p{
+  
+  font: normal normal normal 14px/24px Open Sans;
+letter-spacing: 0px;
+color: #728391;
+opacity: 1;
+padding-bottom: 22px;
+}
+ .last p{
+  text-align: left;
+font: normal normal 600 14px/24px Open Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+padding-bottom: 0px;
+} 
+.banner-disc h3{
+  text-align: left;
+  padding-bottom: 15px;
+font: normal normal bold 16px/29px Montserrat;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.banner-disc ul li{
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.banner-disc ul a{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #00F241 ;
+}
+.selected{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #00F241 ;
+}
